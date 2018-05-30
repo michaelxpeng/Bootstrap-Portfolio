@@ -1,46 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
 
-    <head>
-        <title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-        </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    </head>
+</head>
 
-    <body>
+<body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Michael Peng</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html" target="_blank">Portfolio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html" target="_blank">Contact</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="masthead">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="logo">Michael Peng</a>
+            <div class="navbar-nav nav">
+                <a class="nav-item nav-link" href="index.html">About</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
             </div>
-        </nav>
-
-        <div class="jumbotron">
-            <h1 class="display-4">About Me</h1>
-            <hr class="my-4">
-            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet totam consequuntur quibusdam deserunt libero fugit, error doloremque sunt nobis similique, excepturi quidem laborum autem delectus nostrum ad natus, est praesentium?</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi maxime, illo, eaque doloremque voluptates quia enim nam expedita labore laborum harum tempora consequuntur culpa at fugiat! Vitae deleniti nemo voluptatem?</p>
         </div>
-    </body>
+    </nav>
 
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>About Me</h1>
+            
+            <img class="card-img-top img-thumbnail auth-image" src="profile.jpg" alt="Michael Peng">
+
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sint laborum distinctio delectus incidunt perferendis officiis magni suscipit eius! Architecto, blanditiis perferendis debitis iure quasi temporibus asperiores voluptatibus consequatur eum.</p>
+
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sint laborum distinctio delectus incidunt perferendis officiis magni suscipit eius! Architecto, blanditiis perferendis debitis iure quasi temporibus asperiores voluptatibus consequatur eum.</p>
+
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sint laborum distinctio delectus incidunt perferendis officiis magni suscipit eius! Architecto, blanditiis perferendis debitis iure quasi temporibus asperiores voluptatibus consequatur eum.</p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            Copyright &copy; 
+        </div>
+    </footer>
+
+</body>
 </html>
